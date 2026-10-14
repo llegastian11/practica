@@ -19,12 +19,18 @@ import {
     Toolbar
 } from "primevue";
 
+const primeUiLicenseKey = import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
+
 const app = createApp(App);
 
 app.use(i18n);
 app.use(router);
 app.use(pinia);
-app.use(PrimeVue, { theme: { preset: Material }, ripple: true });
+app.use(PrimeVue, {
+    theme: { preset: Material },
+    ripple: true,
+    license: primeUiLicenseKey
+});
 
 app.component("pv-button", Button);
 app.component("pv-card", Card);
