@@ -10,6 +10,9 @@ import Material from "@primeuix/themes/material";
 import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 
+import { BaseApi } from "./shared/infrastructure/base-api.js";
+console.log("BaseApi OK:", new BaseApi().http.defaults.baseURL);
+
 import {
     Button,
     Card,
@@ -18,6 +21,7 @@ import {
     SelectButton,
     Toolbar
 } from "primevue";
+
 
 const primeUiLicenseKey = import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
 
@@ -40,3 +44,4 @@ app.component("pv-select-button", SelectButton);
 app.component("pv-toolbar", Toolbar);
 
 app.mount("#app");
+

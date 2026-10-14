@@ -7,7 +7,8 @@
     "title": "Home",
     "subtitle": "Weather Station Monitoring.",
     "section-title": "My Weather Reports",
-    "empty": "Empty"
+    "empty": "Empty",
+    "loading": "Loading data..."
   },
   "new-report": {
     "title": "New Weather Report",

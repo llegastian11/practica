@@ -7,7 +7,8 @@
     "title": "Inicio",
     "subtitle": "Monitoreo de Estaciones Meteorológicas.",
     "section-title": "Mis Reportes Meteorológicos",
-    "empty": "Vacío"
+    "empty": "Vacío",
+    "loading": "Cargando datos..."
   },
   "new-report": {
     "title": "Nuevo Reporte Meteorológico",
