@@ -10,8 +10,6 @@ import Material from "@primeuix/themes/material";
 import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
 
-import { BaseApi } from "./shared/infrastructure/base-api.js";
-console.log("BaseApi OK:", new BaseApi().http.defaults.baseURL);
 
 import {
     Button,
