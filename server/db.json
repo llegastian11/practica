@@ -1,0 +1,60 @@
+{
+  "weather-stations": [
+    {
+      "id": 1,
+      "name": "Estacion Costa Norte",
+      "city": "Piura",
+      "country": "Peru",
+      "latitude": -5.1945,
+      "longitude": -80.6328,
+      "climateZone": "coastal",
+      "lastTemperature": 24
+    },
+    {
+      "id": 2,
+      "name": "Estacion Sierra Alta",
+      "city": "Cusco",
+      "country": "Peru",
+      "latitude": -13.5319,
+      "longitude": -71.9675,
+      "climateZone": "highland",
+      "lastTemperature": 12
+    },
+    {
+      "id": 3,
+      "name": "Estacion Selva Central",
+      "city": "Iquitos",
+      "country": "Peru",
+      "latitude": -3.7491,
+      "longitude": -73.2538,
+      "climateZone": "tropical",
+      "lastTemperature": 31
+    },
+    {
+      "id": 4,
+      "name": "Estacion Costa Sur",
+      "city": "Arequipa",
+      "country": "Peru",
+      "latitude": -16.409,
+      "longitude": -71.5375,
+      "climateZone": "desert",
+      "lastTemperature": 18
+    }
+  ],
+  "weather-reports": [
+    {
+      "id": 1,
+      "stationId": 1,
+      "climateZone": "coastal",
+      "city": "Piura",
+      "country": "Peru",
+      "latitude": -5.1945,
+      "longitude": -80.6328,
+      "temperature": 27.5,
+      "windSpeed": 14.2,
+      "relativeHumidity": 68,
+      "observedAt": "2026-05-20T10:15",
+      "registeredAt": "2026-05-20 10:20:00"
+    }
+  ]
+}
