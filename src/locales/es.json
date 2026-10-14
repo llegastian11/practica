@@ -1,0 +1,35 @@
+{
+  "option": {
+    "home": "Inicio",
+    "new-report": "Nuevo Reporte"
+  },
+  "home": {
+    "title": "Inicio",
+    "subtitle": "Monitoreo de Estaciones Meteorológicas.",
+    "section-title": "Mis Reportes Meteorológicos",
+    "empty": "Vacío"
+  },
+  "new-report": {
+    "title": "Nuevo Reporte Meteorológico",
+    "subtitle": "Agregue Datos Meteorológicos Actuales a Su Estación",
+    "select-zone": "Seleccione Zona Climática",
+    "select-station": "Seleccione Estación Meteorológica",
+    "btn-create": "Crear",
+    "btn-cancel": "Cancelar",
+    "validation-error": "No se puede registrar: la diferencia de temperatura debe ser al menos 2 y la velocidad del viento debe ser como máximo 60."
+  },
+  "report-card": {
+    "country": "País",
+    "climate-zone": "Zona Climática",
+    "temperature": "Temperatura",
+    "registered-at": "Registrado el",
+    "wind-speed": "Velocidad del Viento",
+    "relative-humidity": "Humedad Relativa",
+    "observed-at": "Observado el"
+  },
+  "page-not-found": {
+    "title": "Página No Encontrada",
+    "content": "La ruta {unavailableRoute} no fue encontrada.",
+    "btn-back": "Volver al Inicio"
+  }
+}

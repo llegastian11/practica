@@ -1,0 +1,35 @@
+{
+  "option": {
+    "home": "Home",
+    "new-report": "New Weather Report"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Weather Station Monitoring.",
+    "section-title": "My Weather Reports",
+    "empty": "Empty"
+  },
+  "new-report": {
+    "title": "New Weather Report",
+    "subtitle": "Add Current Weather Data to Your Station",
+    "select-zone": "Select Climate Zone",
+    "select-station": "Select Weather Station",
+    "btn-create": "Create",
+    "btn-cancel": "Cancel",
+    "validation-error": "Cannot register report: Temperature difference must be at least 2 and wind speed must be at most 60."
+  },
+  "report-card": {
+    "country": "Country",
+    "climate-zone": "Climate Zone",
+    "temperature": "Temperature",
+    "registered-at": "Registered At",
+    "wind-speed": "Wind Speed",
+    "relative-humidity": "Relative Humidity",
+    "observed-at": "Observed At"
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The route {unavailableRoute} was not found.",
+    "btn-back": "Return to Home"
+  }
+}
