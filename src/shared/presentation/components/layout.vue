@@ -45,7 +45,7 @@ const navigateTo = (path) => {
             v-for="option in navigationOptions"
             :key="option.label"
             :label="t(option.label)"
-            text
+            severity="contrast"
             @click="navigateTo(option.path)"
         />
       </div>

@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
+import stationsRoutes from "./stations/presentation/stations-routes.js";
 
 const home = () => import("./shared/presentation/views/home.vue");
 const pageNotFound = () => import("./shared/presentation/views/page-not-found.vue");
 
 const routes = [
     { path: "/home", name: "home", component: home, meta: { title: "Home" } },
+    { path: "/weather", children: stationsRoutes },
     { path: "/", redirect: "/home" },
     { path: "/:pathMatch(.*)*", name: "not-found", component: pageNotFound, meta: { title: "Page Not Found" } }
 ];

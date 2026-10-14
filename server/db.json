@@ -38,7 +38,7 @@
       "latitude": -16.409,
       "longitude": -71.5375,
       "climateZone": "desert",
-      "lastTemperature": 18
+      "lastTemperature": 24.1
     }
   ],
   "weather-reports": [
@@ -55,6 +55,20 @@
       "relativeHumidity": 68,
       "observedAt": "2026-05-20T10:15",
       "registeredAt": "2026-05-20 10:20:00"
+    },
+    {
+      "stationId": 4,
+      "climateZone": "desert",
+      "city": "Arequipa",
+      "country": "Peru",
+      "latitude": -16.409,
+      "longitude": -71.5375,
+      "temperature": 24.1,
+      "windSpeed": 14.7,
+      "relativeHumidity": 16,
+      "observedAt": "2026-10-14T12:30",
+      "registeredAt": "2026-10-14 17:36:51",
+      "id": 2
     }
   ]
 }
